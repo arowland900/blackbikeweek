@@ -1,0 +1,13 @@
+* {
+    background-color: black;
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5em;
+
+    font-style: italic;
+}
+
