@@ -14,13 +14,34 @@ var conLink = document.getElementById('conLink')
 
 // event listeners
 h1.addEventListener('click', function(){
-    loc = './index.html';
+    // loc = './index.html';
     loadHome()
+})
+abtLink.addEventListener('click', function(){
+    // loc = './index.html';
+    loadAbout()
+})
+conLink.addEventListener('click', function(){
+    // loc = './index.html';
+    loadContact()
 })
 
 // functions
 function loadHome(){
-    h2.setAttribute('style', 'display: none');
-    p.setAttribute('style', 'display: none');
+    img.setAttribute('style', 'display: block');
+    about.setAttribute('style', 'display: none');
     contact.setAttribute('style', 'display: none');
 }
+function loadAbout(){
+    img.setAttribute('style', 'display: none');
+    about.setAttribute('style', 'display: block');
+    contact.setAttribute('style', 'display: none');
+}
+function loadContact(){
+    img.setAttribute('style', 'display: none');
+    about.setAttribute('style', 'display: none');
+    contact.setAttribute('style', 'display: block');
+}
+
+// on page load
+loadHome()
