@@ -140,13 +140,29 @@ h3{
         
     }
     
-    img {
+    img, #contact, h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: calc(40% + 100px);
         min-width: 340px;
         max-width: 1200px;
+    }
+    div {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(40% + 100px);
+        min-width: 340px;
+        max-width: 1200px;
+    }
+    p {
+        display: inline-block;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 30px;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
     }
 }
 
@@ -161,12 +177,13 @@ h3{
         
     }
     
-    img {
+    img, #contact, h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 30%
     }
+   
 }
 
 @media only screen and (max-width: 375px) {
@@ -180,7 +197,7 @@ h3{
         
     }
     
-    img {
+    img, #contact, h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -200,7 +217,7 @@ h3{
         
     }
     
-    img {
+    img, #contact, h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
