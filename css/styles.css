@@ -89,7 +89,7 @@ img {
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
-        font-size:calc(40px + 3vw);
+        font-size: 40px;
         -webkit-animation:colorchange 25s infinite alternate;
         animation-delay: 2s;
         font-style: italic;
@@ -100,7 +100,7 @@ img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 40%
+        width: 30%
     }
 }
 
