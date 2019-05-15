@@ -31,10 +31,13 @@ musLink.addEventListener('click', function(){
     // loc = './index.html';
     loadMusic()
 })
-strLink.addEventListener('click', function(){
-    // loc = './index.html';
-    loadStore()
-})
+
+// will add this function back in once store is up and running 
+
+// strLink.addEventListener('click', function(){
+//     // loc = './index.html';
+//     loadStore()
+// })
 
 // functions
 function loadHome(){
@@ -49,29 +52,33 @@ function loadAbout(){
     about.setAttribute('style', 'display: block');
     contact.setAttribute('style', 'display: none');
     music.setAttribute('style', 'display: none');
-    store.setAttribute('style', 'display: none');
+    // store.setAttribute('style', 'display: none');
 }
 function loadContact(){
     img.setAttribute('style', 'display: none');
     about.setAttribute('style', 'display: none');
     contact.setAttribute('style', 'display: block');
     music.setAttribute('style', 'display: none');
-    store.setAttribute('style', 'display: none');
+    // store.setAttribute('style', 'display: none');
 }
 function loadMusic(){
     img.setAttribute('style', 'display: none');
     about.setAttribute('style', 'display: none');
     contact.setAttribute('style', 'display: none');
-    store.setAttribute('style', 'display: none');
+    // store.setAttribute('style', 'display: none');
     music.setAttribute('style', 'display: block');
 }
-function loadStore(){
-    img.setAttribute('style', 'display: none');
-    about.setAttribute('style', 'display: none');
-    contact.setAttribute('style', 'display: none');
-    music.setAttribute('style', 'display: none');
-    store.setAttribute('style', 'display: block');
-}
+
+// will add this function back in once store is up and running
+
+// function loadStore(){
+//     img.setAttribute('style', 'display: none');
+//     about.setAttribute('style', 'display: none');
+//     contact.setAttribute('style', 'display: none');
+//     music.setAttribute('style', 'display: none');
+//     store.setAttribute('style', 'display: block');
+// }
+
 
 // on page load
 loadHome()
