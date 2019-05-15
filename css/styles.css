@@ -92,7 +92,8 @@ h3{
 }
 
 #strLink:hover {
-    color: rgb(227, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: line-through;
 }
 
 
