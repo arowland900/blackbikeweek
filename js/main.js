@@ -7,8 +7,6 @@ var store = document.getElementById('store')
 var contact = document.getElementById('contact')
 var about = document.getElementById('about')
 
-var loc = document.location.href
-
 var musLink = document.getElementById('musLink')
 var strLink = document.getElementById('strLink')
 var conLink = document.getElementById('conLink')
@@ -16,26 +14,18 @@ var abtLink = document.getElementById('abtLink')
 
 // event listeners
 h1.addEventListener('click', function(){
-    // loc = './index.html';
     loadHome()
 })
 abtLink.addEventListener('click', function(){
-    // loc = './index.html';
     loadAbout()
 })
 conLink.addEventListener('click', function(){
-    // loc = './index.html';
     loadContact()
 })
 musLink.addEventListener('click', function(){
-    // loc = './index.html';
     loadMusic()
 })
-
-// will add this function back in once store is up and running 
-
 strLink.addEventListener('click', function(){
-    // loc = './index.html';
     loadStore()
 })
 
@@ -68,9 +58,6 @@ function loadMusic(){
     store.setAttribute('style', 'display: none');
     music.setAttribute('style', 'display: block');
 }
-
-// will add this function back in once store is up and running
-
 function loadStore(){
     img.setAttribute('style', 'display: block');
     about.setAttribute('style', 'display: none');
@@ -78,7 +65,6 @@ function loadStore(){
     music.setAttribute('style', 'display: none');
     store.setAttribute('style', 'display: block');
 }
-
 
 // on page load
 loadHome()
