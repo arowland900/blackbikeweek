@@ -13,21 +13,11 @@ var conLink = document.getElementById('conLink')
 var abtLink = document.getElementById('abtLink')
 
 // event listeners
-h1.addEventListener('click', function(){
-    loadHome()
-})
-abtLink.addEventListener('click', function(){
-    loadAbout()
-})
-conLink.addEventListener('click', function(){
-    loadContact()
-})
-musLink.addEventListener('click', function(){
-    loadMusic()
-})
-strLink.addEventListener('click', function(){
-    loadStore()
-})
+h1.addEventListener('click', loadHome)
+abtLink.addEventListener('click', loadAbout)
+conLink.addEventListener('click', loadContact)
+musLink.addEventListener('click', loadMusic)
+strLink.addEventListener('click', loadStore)
 
 // functions
 function loadHome(){
